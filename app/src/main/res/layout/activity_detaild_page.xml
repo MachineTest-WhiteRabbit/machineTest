@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.DetaildPage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text=""
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:id="@+id/pName"
+            android:gravity="center"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:id="@+id/pImage"
+            android:scaleType="centerCrop"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:text=""
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:id="@+id/cName"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:text=""
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:id="@+id/email"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:text=""
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:id="@+id/phone"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:text=""
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:id="@+id/address"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:text=""
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:id="@+id/company"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:text=""
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:id="@+id/website"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
